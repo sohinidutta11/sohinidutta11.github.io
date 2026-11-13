@@ -36,3 +36,27 @@
     "layout/archive",
     "layout/sidebar"
 ;
+/* Compact project rows on the homepage */
+.project-row {
+  display: flex;
+  gap: 1.25em;
+  align-items: flex-start;
+  margin: 1em 0 1.5em;
+}
+.project-row img {
+  flex: 0 0 32%;
+  max-width: 32%;
+  height: auto;
+  border-radius: 4px;
+}
+.project-row .project-text {
+  flex: 1;
+  min-width: 0;
+}
+.project-row .project-text p {
+  margin: 0 0 0.4em;
+}
+@media (max-width: 600px) {
+  .project-row { flex-direction: column; }
+  .project-row img { flex-basis: auto; max-width: 100%; }
+}
