@@ -1,12 +1,14 @@
 # Links in the header of the website, in order.
-# Uncomment or add entries as new pages are ready.
 
 main:
-  # - title: "Publications"
-  #   url: /publications/
+  - title: "About"
+    url: /
 
-  - title: "Service"
-    url: /service/
+  # - title: "Research"
+  #   url: /#selected-research
 
   - title: "CV"
-    url: https://drive.google.com/file/d/1ToNL1BZN96oirh86JKi2cV1BBphu7v57/view?usp=sharing
+    url: /files/Sohini_Dutta_CV.pdf
+
+  - title: "Contact"
+    url: /#contact
