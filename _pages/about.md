@@ -15,8 +15,6 @@ My research interests are visual representations for spatial and temporal unders
 
 I hold a Dual Degree (B.Tech in Mechanical Engineering and M.Tech in Computational Engineering) from **IIT Madras**, and spent a year as a software developer before returning to research.
 
-**I am looking for PhD opportunities starting Fall 2027.**
-
 [CV](/files/Sohini_Dutta_CV.pdf) · [Email](mailto:sohini11dutta@gmail.com) · [GitHub](https://github.com/sohinidutta11) · [LinkedIn](https://www.linkedin.com/in/sohini-dutta-6527011a1)
 
 <!-- Selected Research goes here: two entries, each with one figure, 80–120 words, a contribution sentence, collaborators/adviser and status. -->
