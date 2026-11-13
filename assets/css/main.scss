@@ -56,6 +56,15 @@
 .project-row .project-text p {
   margin: 0 0 0.4em;
 }
+.project-row .project-text .project-title {
+  margin-bottom: 0.1em;
+}
+.project-row .project-text .project-meta {
+  font-size: 0.8em;
+  color: var(--global-text-color);
+  opacity: 0.75;
+  margin-bottom: 0.6em;
+}
 @media (max-width: 600px) {
   .project-row { flex-direction: column; }
   .project-row img { flex-basis: auto; max-width: 100%; }

@@ -23,7 +23,8 @@ I graduated from **IIT Madras** with a dual degree in Mechanical and Computation
   <img src="/images/research/ground-plane.jpg" alt="Corridor image with the detected floor highlighted in green">
   <div class="project-text">
     <p class="project-title"><strong>Monocular Path Perception for Autonomous Navigation</strong> · 2022</p>
-    <p>Detected the drivable floor from a single RGB image using monocular depth, superpixels and region merging, for robots without a depth sensor. Undergraduate research with Dr. P.V. Manivannan, IIT Madras.</p>
+    <p class="project-meta">Undergraduate research · IIT Madras · Dr. P. V. Manivannan</p>
+    <p>Detected the drivable floor from a single RGB image using monocular depth, superpixels and region merging, for robots without a depth sensor.</p>
     <p><a href="https://github.com/sohinidutta11/ground-plane-estimation">code</a></p>
   </div>
 </div>
