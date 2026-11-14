@@ -4,8 +4,8 @@ main:
   - title: "About"
     url: /
 
-  # - title: "Research"
-  #   url: /#selected-research
+  - title: "Research"
+    url: /research/
 
   - title: "CV"
     url: /files/Sohini_Dutta_CV.pdf

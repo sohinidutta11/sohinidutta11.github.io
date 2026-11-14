@@ -65,7 +65,19 @@
   opacity: 0.75;
   margin-bottom: 0.6em;
 }
+.project-row--wide {
+  flex-direction: column;
+  gap: 0.9em;
+}
+.project-row--wide img {
+  flex-basis: auto;
+  width: 100%;
+  max-width: 560px;
+}
+.project-row + .project-row {
+  margin-top: 2em;
+}
 @media (max-width: 600px) {
   .project-row { flex-direction: column; }
-  .project-row img { flex-basis: auto; max-width: 100%; }
+  .project-row img, .project-row--wide img { flex-basis: auto; max-width: 100%; }
 }
