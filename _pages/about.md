@@ -21,8 +21,6 @@ You can read more about my current and previous work on my [Research](/research/
 
 ## News
 
-* *[October 2026]* The [ArtiCollision manuscript](https://drive.google.com/file/d/1os2fuhWqmc05iWVTzoiSSeA96v0qo9xY/view?usp=sharing) is available. We ask whether multimodal LLMs can predict if an articulated part will collide with an obstacle, from a single image and an action.
-
 * *[September 2025]* I joined the Representation Learning Lab at **IISc** as a Project Associate with [Prof. Prathosh A. P.](https://eecs.iisc.ac.in/people/prathosh-a-p/)
 
 * *[June 2024]* I joined Uni Cards as a software developer.
