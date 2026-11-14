@@ -18,12 +18,12 @@ author_profile: true
 </div>
 
 <div class="project-row project-row--wide">
-  <img src="/images/research/spixseg.jpg" alt="An image of two birds split into superpixels, the superpixels the model selected for each bird, and the final segmentation mask.">
+  <img src="/images/research/spixseg.jpg" alt="An image split into superpixels, the superpixels selected for each object, and the final segmentation mask.">
   <div class="project-text">
-    <p class="project-title"><strong>SPiXSeg: Segmenting Images by Selecting Regions with Multimodal LLMs</strong></p>
+    <p class="project-title"><strong>Segmentation with Multimodal LLMs through Superpixels</strong></p>
     <p class="project-meta">Piyush Tiwary, Sohini Dutta, Prathosh A. P. · Manuscript in preparation</p>
-    <p>SPiXSeg segments images with a multimodal LLM by working with image regions instead of patches. The image is divided into superpixels that follow object boundaries, and the model selects the regions belonging to each answer directly from its hidden representations, so masks are recovered at full resolution. The same regions serve different segmentation tasks.</p>
-    <p><em>My role:</em> I co-designed and built the mask-based positional encoding for regions, contributed geometry-aware pooling, and built the training and evaluation pipeline.</p>
+    <p>We study how multimodal LLMs can produce segmentation masks by working with image regions that follow object boundaries, instead of a fixed grid of patches.</p>
+    <p><em>My role:</em> I contributed to the method design, model training and evaluation.</p>
     <p><a href="https://drive.google.com/file/d/1wdgOCyRm_HXQ90b4Y-iGfFPqKJEKutkw/view">Earlier version (PDF)</a></p>
   </div>
 </div>
