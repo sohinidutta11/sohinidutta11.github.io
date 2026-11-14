@@ -81,3 +81,24 @@
   .project-row { flex-direction: column; }
   .project-row img, .project-row--wide img { flex-basis: auto; max-width: 100%; }
 }
+
+/* Updates timeline on the homepage */
+.updates {
+  list-style: none;
+  margin: 0.5em 0 0;
+  padding: 0;
+}
+.updates li {
+  display: flex;
+  gap: 1.2em;
+  margin: 0 0 0.6em;
+}
+.updates .updates-date {
+  flex: 0 0 5.5em;
+  opacity: 0.75;
+  font-variant-numeric: tabular-nums;
+}
+.updates li > span:last-child {
+  flex: 1;
+  min-width: 0;
+}

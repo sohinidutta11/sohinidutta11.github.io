@@ -18,3 +18,13 @@ I graduated from **IIT Madras** with a dual degree in Mechanical and Computation
 You can read more about my current and previous work on my [Research](/research/) page.
 
 **I am looking for PhD opportunities starting in Fall 2027.**
+
+## Updates
+
+<ul class="updates">
+  <li><span class="updates-date">Sep 2025</span><span>Joined the Representation Learning Lab at IISc as a Project Associate with Prof. Prathosh A. P.</span></li>
+  <li><span class="updates-date">Jun 2024</span><span>Joined Uni Cards as a software developer.</span></li>
+  <li><span class="updates-date">2024</span><span>Graduated from IIT Madras with a dual degree in Mechanical and Computational Engineering; received the Sri G. S. Bhuvaneshwar Prize.</span></li>
+  <li><span class="updates-date">May 2023</span><span>Started a Mitacs Globalink research internship at the University of British Columbia with Prof. Frank Lam.</span></li>
+  <li><span class="updates-date">May 2022</span><span>Joined IISc for a summer research fellowship with Dr. Navaneetha K. Ravichandran.</span></li>
+</ul>

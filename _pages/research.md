@@ -11,8 +11,8 @@ author_profile: true
   <div class="project-text">
     <p class="project-title"><strong>ArtiCollision: Can Multimodal LLMs Predict the Consequences of Articulated Motion?</strong></p>
     <p class="project-meta">Sohini Dutta, Prathosh A. P. · Ongoing research</p>
-    <p>Vision models can estimate how an object's parts move, but acting on an object also means predicting what that motion will do in a particular scene, such as whether an opening door will hit the box beside it. ArtiCollision asks whether multimodal LLMs can make this prediction from a single image and an action. In each family of simulated scenes, the object, part, action and viewpoint stay fixed and only the obstacle moves, so an obstacle just inside the part's path can be compared with one just outside it. Fine-tuning improves accuracy, but the models we test do not reliably separate these pairs, and their predictions respond to the obstacle's position without consistently locating the edge of the motion. I am now studying what the models' internal representations encode about this geometry, and whether explicit geometric inputs help.</p>
-    <p><em>My role:</em> I initiated and lead the project, designed the task, built the simulation pipeline for generating matched scenes, and ran the training, evaluation and diagnostic experiments.</p>
+    <p>Can multimodal LLMs predict whether an articulated object will collide with its surroundings from a single image and an action? I study this using controlled simulated scenes that separate sensitivity to collision geometry from simpler visual cues.</p>
+    <p><em>My role:</em> I initiated and lead the project, built the simulation pipeline, and run the training and diagnostic experiments.</p>
     <p><a href="https://drive.google.com/file/d/1os2fuhWqmc05iWVTzoiSSeA96v0qo9xY/view?usp=sharing">Manuscript (PDF)</a></p>
   </div>
 </div>
@@ -22,8 +22,8 @@ author_profile: true
   <div class="project-text">
     <p class="project-title"><strong>SPiXSeg: Segmenting Images by Selecting Regions with Multimodal LLMs</strong></p>
     <p class="project-meta">Piyush Tiwary, Sohini Dutta, Prathosh A. P. · Manuscript in preparation</p>
-    <p>Multimodal LLMs can segment images by writing masks out as text, but labelling every image patch makes the output long and limits resolution. SPiXSeg divides the image into superpixels, small regions that follow object boundaries, and the model answers by choosing regions. About 64–128 region labels replace roughly 1,024 patch labels, and masks are recovered at full image resolution. Our first version had the model write region IDs as text. The current version selects regions directly from the model's hidden representations, which improves referring-expression segmentation.</p>
-    <p><em>My role:</em> I co-designed, built and ablated the mask-based positional encoding for regions, contributed geometry-aware pooling, and built the region-level supervision and the training and evaluation pipeline.</p>
+    <p>SPiXSeg segments images with a multimodal LLM by working with image regions instead of patches. The image is divided into superpixels that follow object boundaries, and the model selects the regions belonging to each answer directly from its hidden representations, so masks are recovered at full resolution. The same regions serve different segmentation tasks.</p>
+    <p><em>My role:</em> I co-designed and built the mask-based positional encoding for regions, contributed geometry-aware pooling, and built the training and evaluation pipeline.</p>
     <p><a href="https://drive.google.com/file/d/1wdgOCyRm_HXQ90b4Y-iGfFPqKJEKutkw/view">Earlier version (PDF)</a></p>
   </div>
 </div>
