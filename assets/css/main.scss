@@ -102,3 +102,13 @@
   flex: 1;
   min-width: 0;
 }
+
+/* Justified body text */
+.page__content p {
+  text-align: justify;
+  hyphens: auto;
+}
+.page__content .project-title,
+.page__content .project-meta {
+  text-align: left;
+}
