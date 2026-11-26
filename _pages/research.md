@@ -20,10 +20,9 @@ author_profile: true
 <div class="paper">
   <a class="paper-thumb" href="/images/research/articollision.jpg"><img src="/images/research/articollision_thumb.jpg" alt="The same cabinet with a box just inside the door's path (collision) and just outside it (success)."></a>
   <div class="paper-body">
-    <p class="paper-title"><a href="https://drive.google.com/file/d/1os2fuhWqmc05iWVTzoiSSeA96v0qo9xY/view?usp=sharing">ArtiCollision: Can Multimodal LLMs Predict the Consequences of Articulated Motion?</a></p>
+    <p class="paper-title">ArtiCollision: Can Multimodal LLMs Predict the Consequences of Articulated Motion?</p>
     <p class="paper-authors"><strong>Sohini Dutta</strong>, Prathosh A. P.</p>
-    <p class="paper-venue"><em>Manuscript</em>, 2026</p>
-    <p class="paper-links"><a href="https://drive.google.com/file/d/1os2fuhWqmc05iWVTzoiSSeA96v0qo9xY/view?usp=sharing">PDF</a></p>
+    <p class="paper-venue"><em>Ongoing research</em>, 2026</p>
     <p class="paper-tldr">Can a multimodal LLM tell from one image whether opening a door or drawer will hit a nearby object? Matched scenes, where only the obstacle moves, separate collision geometry from simpler cues.</p>
   </div>
 </div>
