@@ -21,6 +21,8 @@ You can read more about my current and previous work on my [Research](/research/
 
 ## News
 
+* *[November 2026]* Our preprint [SPiXSeg: Rethinking MLLM Segmentation as Superpixel Classification](https://arxiv.org/abs/2611.33842) is on arXiv.
+
 * *[September 2025]* I joined the Representation Learning Lab at **IISc** as a Project Associate with [Prof. Prathosh A. P.](https://eecs.iisc.ac.in/people/prathosh-a-p/)
 
 * *[June 2024]* I joined Uni Cards as a software developer.

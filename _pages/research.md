@@ -20,11 +20,11 @@ author_profile: true
 <div class="project-row project-row--wide">
   <img src="/images/research/spixseg.jpg" alt="An image split into superpixels, the superpixels selected for each object, and the final segmentation mask.">
   <div class="project-text">
-    <p class="project-title"><strong>Segmentation with Multimodal LLMs through Superpixels</strong></p>
-    <p class="project-meta">Piyush Tiwary, Sohini Dutta, Prathosh A. P. · Manuscript in preparation</p>
-    <p>We study how multimodal LLMs can produce segmentation masks by working with image regions that follow object boundaries, instead of a fixed grid of patches.</p>
-    <p><em>My role:</em> I contributed to the method design, model training and evaluation.</p>
-    <p><a href="https://drive.google.com/file/d/1wdgOCyRm_HXQ90b4Y-iGfFPqKJEKutkw/view">Earlier version (PDF)</a></p>
+    <p class="project-title"><strong>SPiXSeg: Rethinking MLLM Segmentation as Superpixel Classification</strong></p>
+    <p class="project-meta">Piyush Tiwary, Sohini Dutta, Prathosh A. P. · Preprint</p>
+    <p>SPiXSeg recasts segmentation with multimodal LLMs as superpixel classification. Each image is split once, without the query, into non-overlapping superpixels, and this one set of regions serves every task: referring segmentation keeps a subset, and semantic segmentation gives each superpixel a class. S2M scores each superpixel from the model's own hidden states, and the mask is the union of the chosen superpixels.</p>
+    <p><em>My role:</em> I designed and built S2M, the superpixel tokens and the pluggable superpixel segmenters, and built the training and evaluation pipeline.</p>
+    <p><a href="https://arxiv.org/abs/2611.33842">arXiv</a></p>
   </div>
 </div>
 
