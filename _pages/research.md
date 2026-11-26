@@ -13,7 +13,7 @@ author_profile: true
     <p class="paper-authors">Piyush Tiwary, <strong>Sohini Dutta</strong>, Prathosh A. P.</p>
     <p class="paper-venue"><em>arXiv preprint</em>, 2026</p>
     <p class="paper-links"><a href="https://arxiv.org/abs/2611.33842">arXiv</a></p>
-    <p class="paper-tldr">One set of superpixels per image serves referring, generalized referring and semantic segmentation, with the multimodal LLM choosing which superpixels form each mask.</p>
+    <p class="paper-tldr">One set of superpixels per image, reused for referring, generalized referring and semantic segmentation.</p>
   </div>
 </div>
 
@@ -23,7 +23,7 @@ author_profile: true
     <p class="paper-title">ArtiCollision: Can Multimodal LLMs Predict the Consequences of Articulated Motion?</p>
     <p class="paper-authors"><strong>Sohini Dutta</strong>, Prathosh A. P.</p>
     <p class="paper-venue"><em>Ongoing research</em>, 2026</p>
-    <p class="paper-tldr">Can a multimodal LLM tell from one image whether opening a door or drawer will hit a nearby object? Matched scenes, where only the obstacle moves, separate collision geometry from simpler cues.</p>
+    <p class="paper-tldr">Can multimodal LLMs predict, from one image, whether opening a door or drawer will hit something?</p>
   </div>
 </div>
 
@@ -36,6 +36,6 @@ author_profile: true
     <p class="paper-authors"><strong>Sohini Dutta</strong>, advised by Dr. P. V. Manivannan</p>
     <p class="paper-venue"><em>Undergraduate research, IIT Madras</em>, 2022</p>
     <p class="paper-links"><a href="https://github.com/sohinidutta11/ground-plane-estimation">code</a></p>
-    <p class="paper-tldr">Finds the drivable floor from a single RGB image using monocular depth, superpixels and region merging, for robots without a depth sensor.</p>
+    <p class="paper-tldr">Drivable-floor detection from a single RGB image, for robots without a depth sensor.</p>
   </div>
 </div>
