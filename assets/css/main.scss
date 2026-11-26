@@ -113,3 +113,86 @@
 .page__content .project-meta {
   text-align: left;
 }
+
+/* Research entries */
+.pub {
+  padding: 1.6em 0 1.8em;
+  border-bottom: 1px solid var(--global-border-color);
+}
+.pub:last-of-type { border-bottom: none; }
+.pub p { margin: 0 0 0.6em; }
+.pub-figure {
+  margin: 0 0 1.1em;
+  max-width: 600px;
+}
+.pub-figure img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.18), 0 6px 18px rgba(0, 0, 0, 0.10);
+}
+.page__content .pub-title {
+  font-size: 1.12em;
+  font-weight: 700;
+  line-height: 1.35;
+  margin-bottom: 0.3em;
+  text-align: left;
+}
+.page__content .pub-authors {
+  font-size: 0.85em;
+  color: var(--global-text-color-light);
+  text-align: left;
+  margin-bottom: 0.9em;
+}
+.pub-authors strong { color: var(--global-text-color); }
+.pub-badge {
+  display: inline-block;
+  margin-left: 0.5em;
+  padding: 0.05em 0.65em;
+  font-size: 0.85em;
+  border: 1px solid var(--global-border-color);
+  border-radius: 999px;
+  white-space: nowrap;
+}
+.pub-role span {
+  display: inline-block;
+  margin-right: 0.4em;
+  font-size: 0.75em;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--global-text-color-light);
+}
+.page__content .pub-links { margin-top: 0.9em; text-align: left; }
+.pub-links a {
+  display: inline-block;
+  margin-right: 0.5em;
+  padding: 0.2em 0.9em;
+  font-size: 0.8em;
+  font-weight: 600;
+  text-decoration: none;
+  color: var(--global-link-color);
+  border: 1px solid var(--global-link-color);
+  border-radius: 999px;
+  transition: background-color 0.15s, color 0.15s;
+}
+.pub-links a:hover {
+  background-color: var(--global-link-color);
+  color: var(--global-bg-color);
+}
+.pub--compact {
+  display: flex;
+  gap: 1.4em;
+  align-items: flex-start;
+}
+.pub--compact .pub-figure {
+  flex: 0 0 32%;
+  max-width: 32%;
+  margin: 0;
+}
+.pub--compact .pub-body { flex: 1; min-width: 0; }
+@media (max-width: 600px) {
+  .pub--compact { flex-direction: column; }
+  .pub--compact .pub-figure { max-width: 100%; }
+}
