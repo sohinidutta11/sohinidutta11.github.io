@@ -8,9 +8,9 @@ author_profile: true
 
 <div class="pub">
   <figure class="pub-figure">
-    <img src="/images/research/spixseg.jpg" alt="An image split into superpixels, the superpixels selected for each object, and the final segmentation mask.">
+    <img src="/images/research/spixseg.jpg" alt="One image split into superpixels once, and the same superpixels used for referring segmentation, generalized referring segmentation, semantic segmentation and bounding boxes.">
   </figure>
-  <p class="pub-title">SPiXSeg: Rethinking MLLM Segmentation as Superpixel Classification</p>
+  <p class="pub-title">SPiXSeg: Rethinking MLLM-based Image Segmentation as Superpixel Classification</p>
   <p class="pub-authors">Piyush Tiwary, <strong>Sohini Dutta</strong>, Prathosh A. P. <span class="pub-badge">Preprint</span></p>
   <p>SPiXSeg recasts segmentation with multimodal LLMs as superpixel classification. Each image is split once, without the query, into non-overlapping superpixels, and this one set of regions serves every task: referring segmentation keeps a subset, and semantic segmentation gives each superpixel a class. S2M scores each superpixel from the model's own hidden states, and the mask is the union of the chosen superpixels.</p>
   <p class="pub-role"><span>My role</span> I designed and built S2M, the superpixel tokens and the pluggable superpixel segmenters, and built the training and evaluation pipeline.</p>
